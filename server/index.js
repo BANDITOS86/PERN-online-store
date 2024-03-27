@@ -5,7 +5,7 @@ import models from "./models/models.js";
 import cors from "cors";
 import fileUpload from 'express-fileupload';
 import router from "./routes/index.js";
-import errorHandler from "./midleware/ErrorHandlingMidleware.js";
+import errorHandler from "./middleware/ErrorHandlingMidleware.js";
 import { fileURLToPath } from "url";
 import path from "path";
 
